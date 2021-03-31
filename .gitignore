@@ -1,0 +1,9 @@
+# Criado por Carlos Teixeira (Tex4s)
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspacee
