@@ -1,0 +1,1 @@
+Consiste em um exercício simples com algumas funções em JavaScript puro.
