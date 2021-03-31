@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 03 - JS</title>
+</head>
+<body>
+    <script>
+        var msg = 'Esta é uma variável global'
+
+        function alerta(mensagem) {
+            //alert(mensagem);
+
+            msgLocal = mensagem;
+        }
+
+        function metade(num) {
+            return num / 2;
+        }
+
+        function divide(num, por = 2) {
+            return num / por;
+        }
+        
+        var num = 100, por = 4;
+        alerta('Resultado da divisão de '+ num +' / ' + por + ' é --> ' + divide(num, por));
+
+        alerta('A metade de 15 é --> ' + metade(15));
+
+        alerta('passagem de parametro por aki');
+        alert(msgLocal);
+
+    </script>
+</body>
+</html>
